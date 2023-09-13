@@ -1,12 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     height: 100vh;
     width: 100vw;
-    background: url(image1112.jpg) no-repeat;
+    background: url(gavel-2492011.jpg) no-repeat;
     /* background-size: cover;
     background-position: center;  */
     backdrop-filter: blur(3px);
@@ -14,7 +15,8 @@ body{
     align-items: center;
     justify-content: center;
 }
-.inputs{
+
+.inputs {
     height: 50%;
     width: 40%;
     display: flex;
@@ -26,12 +28,14 @@ body{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     justify-content: space-between;
 }
-.inputs h1{
+
+.inputs h1 {
     margin-top: 15px;
     margin-bottom: 5px;
     text-align: center;
 }
-.inputs input{
+
+.inputs input {
     width: 290px;
     height: 30px;
     padding: 20px;
@@ -41,10 +45,12 @@ body{
     background: #4c4b4b;
     color: white;
 }
-input::placeholder{
+
+input::placeholder {
     color: rgb(128, 129, 130);
 }
-.btn{
+
+.btn {
     padding: 9px 35px;
     margin-bottom: 4px;
     background-color: #3367b4;
@@ -53,11 +59,13 @@ input::placeholder{
     border-radius: 5px;
     color: #fff5f5;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #fff5f5;
     color: #3367b4;
     border: 1px solid rgb(128, 129, 130);
 }
+
 .sticky-container {
     position: fixed;
     bottom: 20px;
